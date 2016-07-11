@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sample>
+  <foo>2</foo>
+  <bar>3</bar>
+  
+  <foobar>
+    <foo>bar</foo>
+    <bar>foo</bar>
+  </foobar>
+
+  <foobarbazz>
+    <foo>1</foo>
+    <bar>2</bar>
+    <bazz>3</bazz>
+  </foobarbazz>
+  
+</sample>
