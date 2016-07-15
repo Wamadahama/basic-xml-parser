@@ -23,12 +23,13 @@ git clone https://github.com/Wamadahama/basic-xml-parser.git
 Open the ```.sln``` in Visual Studio and select Build and Run
 
 ### Linux (.NET Core)
-This needs testing
 ```sh
 git clone https://github.com/Wamadahama/basic-xml-parser.git
-dotnet restore
-dotnet run
+cd basic-xml-parser
+sh install-linux.sh
 ```
+
+Use dotnet run to use.
 
 ## Usage
 
