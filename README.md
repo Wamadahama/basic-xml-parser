@@ -67,7 +67,7 @@ using XmlParser;
 
 ### Loading an XML file
 ```cs
-dynamic Test = new DynamicXmlObject(@"Path/To/File.xml");
+  dynamic Test = new DynamicXmlObject(@"Path/To/File.xml");
 ```
 
 ### Using . Member Access
@@ -78,16 +78,16 @@ dynamic Test = new DynamicXmlObject(@"Path/To/File.xml");
 
 ### Chained . Member Access
 ```cs
-Console.WriteLine(Test.foobar.foo); // => bar
+  Console.WriteLine(Test.foobar.foo); // => bar
 ```
 
 ### Integer Index
 ```cs
-Console.WriteLine(Test.foobar[0].ToString()); // => bar
+  Console.WriteLine(Test.foobar[0].ToString()); // => bar
 ```
 
 ### ToList<string>
 ```cs
-List<string> Foobar = Test.foobar.ToList();
-Foobar.ForEach((elem) => { Console.WriteLine(elem.ToString()); }); // => bar\nfoo\n
+  List<string> Foobar = Test.foobar.ToList();
+  Foobar.ForEach((elem) => { Console.WriteLine(elem.ToString()); }); // => bar\nfoo\n
 ```
